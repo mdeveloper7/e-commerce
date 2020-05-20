@@ -22,4 +22,4 @@ const CheckoutItem = ({ cartItem, dispatch }) => {
         </div>);
 };
 
-export default connect(null)(CheckoutItem);
+export default connect()(CheckoutItem);
